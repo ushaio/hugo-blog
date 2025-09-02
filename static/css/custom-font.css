@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/lxgwwenkaiscreen.subset.v1.235.standard.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional: apply the font globally */
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
