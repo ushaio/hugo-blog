@@ -1,7 +1,7 @@
 baseURL = 'https://blog.yunbiu.top/'
 languageCode = 'zh-cn'
-title = 'Ushaio的博客'
-theme = 'PaperMod'
+title = '沙海随心记'
+theme = 'hugo-theme-yinyang'
 
 [params]
   ShowReadingTime = true
