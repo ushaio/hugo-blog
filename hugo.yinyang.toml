@@ -5,7 +5,7 @@
 baseURL = 'https://blog.yunbiu.top/'
 languageCode = 'zh-cn'
 title = 'Ushaio的博客'
-theme = 'yinyang'
+theme = 'hugo-theme-yinyang'
 
 # Yin Yang主题特定配置
 [params]
