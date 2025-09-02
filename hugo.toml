@@ -1,6 +1,6 @@
-baseURL = 'https://your-username.github.io/your-repo-name/'
+baseURL = 'https://ushaio.github.io/'
 languageCode = 'zh-cn'
-title = 'My Hugo Site'
+title = 'Ushaio的博客'
 theme = 'PaperMod'
 
 [params]
@@ -26,7 +26,7 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/your-username"
+    url = "https://github.com/ushaio"
 
 [menu]
   [[menu.main]]
