@@ -1,6 +1,6 @@
-baseURL = 'https://your-username.github.io/your-repo-name/'
+baseURL = 'https://blog.yunbiu.top/'
 languageCode = 'zh-cn'
-title = 'My Hugo Site'
+title = '沙海随心记'
 theme = 'PaperMod'
 
 [params]
@@ -21,12 +21,22 @@ theme = 'PaperMod'
   tocopen = false
 
   [params.homeInfoParams]
-    Title = "欢迎来到我的博客"
-    Content = "这是使用Hugo和GitHub Pages构建的静态站点"
+    Title = "欢迎来到沙海随心记"
+    Content = "记录技术探索与生活感悟的个人博客"
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/your-username"
+    url = "https://github.com/ushaio"
+
+  # 搜索功能
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
 
 [menu]
   [[menu.main]]
@@ -40,7 +50,20 @@ theme = 'PaperMod'
     url = "/posts/"
     weight = 20
   [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
     weight = 30
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 40
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
