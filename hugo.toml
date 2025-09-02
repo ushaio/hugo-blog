@@ -1,7 +1,11 @@
 baseURL = 'https://blog.yunbiu.top/'
 languageCode = 'zh-cn'
 title = '沙海随心记'
+<<<<<<< HEAD
 theme = 'PaperMod'
+=======
+theme = 'hugo-theme-yinyang'
+>>>>>>> f31d55680a7cfddb543e53b6d1a0c8ede321daa2
 
 [params]
   ShowReadingTime = true
@@ -27,6 +31,7 @@ theme = 'PaperMod'
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/ushaio"
+<<<<<<< HEAD
 
   # 搜索功能
   [params.fuseOpts]
@@ -37,6 +42,8 @@ theme = 'PaperMod'
     threshold = 0.4
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
+=======
+>>>>>>> f31d55680a7cfddb543e53b6d1a0c8ede321daa2
 
 [menu]
   [[menu.main]]
