@@ -1,0 +1,156 @@
+baseURL = "http://blog.yunbiu.top"
+title = "Shai - BLOG"
+
+languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+enableGitInfo = true
+enableInlineShortcodes = true
+
+[pagination]
+disableAliases = false
+pagerSize = 8
+path = "page"
+
+[minify]
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Shai's Blog"
+description = "一个记录生活和技术的地方"
+version = "v2.0.0"  # 手动维护版本号
+buildDate = "2025-01-03"
+defaultTheme = "auto"
+disableThemeToggle = false
+DateFormat = "2006-01-02"
+ShowShareButtons = false
+fancybox = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = true
+comments = true
+ShowLastMod = true  # 显示文章更新时间
+ShowToc = true # 显示目录
+TocOpen = false # 自动展开目录
+UseHugoToc = true
+
+[params.assets]
+favicon = "/images/favicon.ico"
+disableHLJS = true
+
+[params.homeInfoParams]
+title = "Shai's Blog"
+content = """
+总要写点什么✍🏻.  
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ushaio"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/adandonOA"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:haggi@lao.ac.cn"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[params.editPost]
+URL = "https://github.com/ushaio/ushaio.github.io/edit/main/content"
+Text = "在 GitHub 编辑"
+appendFilePath = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[markup]
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+style = "trac"
+
+[[menu.main]]
+identifier = "首页"
+name = "首页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "搜索"
+name = "搜索"
+url = "/search"
+weight = 10
+
+[[menu.main]]
+identifier = "分类"
+name = "分类"
+url = "/categories"
+weight = 20
+
+[[menu.main]]
+identifier = "标签"
+name = "标签"
+url = "/tags"
+weight = 30
+
+[[menu.main]]
+identifier = "归档"
+name = "归档"
+url = "/archives"
+weight = 40
+
+[[menu.main]]
+identifier = "友链"
+name = "友链"
+url = "/links"
+weight = 50
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[privacy]
+[privacy.vimeo]
+disabled = false
+simple = true
+
+# [privacy.twitter]
+# disabled = false
+# enableDNT = true
+# simple = true
+
+# [privacy.instagram]
+# disabled = false
+# simple = true
+
+# [privacy.youtube]
+# disabled = false
+# privacyEnhanced = true
+
+[services]
+# [services.instagram]
+# disableInlineCSS = true
+# [services.twitter]
+# disableInlineCSS = true
