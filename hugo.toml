@@ -42,7 +42,7 @@ ShowWordCount = true
 comments = true
 ShowLastMod = true  # 显示文章更新时间
 ShowToc = true # 显示目录
-TocOpen = false # 自动展开目录
+TocOpen = true # 自动展开目录
 UseHugoToc = true
 
 [params.assets]
