@@ -13,11 +13,14 @@ comments = false
 disableHLJS = false
 disableShare = false
 searchHidden = false
+
 +++
 
 # Hugo静态网站生成器入门指南
 
 Hugo是一个用Go语言编写的静态网站生成器，以其极快的构建速度和丰富的主题生态系统而闻名。
+
+![image.png](https://img.yunbiu.top/file/1756949905020_image.png)
 
 ## 什么是Hugo？
 
