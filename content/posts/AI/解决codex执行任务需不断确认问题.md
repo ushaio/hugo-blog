@@ -23,3 +23,13 @@ codex --ask-for-approval never --sandbox danger-full-access -c model_reasoning_e
 ```
 
 丝滑多了
+
+---
+
+更新
+
+可以直接使用命令`/approval`选择权限，选择`full access`即可，才发现emmm
+
+![](https://github.com/ushaio/picx-images-hosting/raw/master/image.96a3h7yu9n.webp)
+
+![](https://github.com/ushaio/picx-images-hosting/raw/master/image.2vf3jccf2d.webp)
