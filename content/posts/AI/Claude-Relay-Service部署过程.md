@@ -27,8 +27,4 @@ searchHidden = false
 
 ## 解决方案
 最后问了佬友，问题在于其默认环境变量没有指定`redis_host`
-最后在环境变量添加了
-
-````
-REDIS_HOST=redis
-````
+最后在环境变量添加了`REDIS_HOST=redis`，完美解决
