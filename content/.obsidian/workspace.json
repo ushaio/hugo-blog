@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "97bb188c4a94005e",
+    "type": "split",
+    "children": [
+      {
+        "id": "eee33796db34b6ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b347bc24a8106ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/AI/Claude-Relay-Service部署过程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Claude-Relay-Service部署过程"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7803462a16d5a5a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "49aa7915e913d50a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "097f59577de5b480",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7142aff3869b8f96",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "bcb1fb1bc11f2cdd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1953caa99aeb9ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "68eaa5a006bb9593",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8addcabf1e001a15",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/Obsidian个人使用向.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Obsidian个人使用向 的反向链接列表"
+            }
+          },
+          {
+            "id": "cd30d32fc0e8e868",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/Obsidian个人使用向.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Obsidian个人使用向 的出链列表"
+            }
+          },
+          {
+            "id": "e26ca434436e40dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "387561be1f313724",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/Obsidian个人使用向.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Obsidian个人使用向 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "1b347bc24a8106ae",
+  "lastOpenFiles": [
+    "posts/AI/Claude-Relay-Service部署过程.md",
+    "posts/AI/解决codex执行任务需不断确认问题.md",
+    "posts/Obsidian个人使用向.md",
+    "posts/Obsidian个人使用向.md.tmp.24088.1758694082479",
+    "about.md",
+    "posts/hugo-getting-started.md",
+    "posts/first-post.md"
+  ]
+}
