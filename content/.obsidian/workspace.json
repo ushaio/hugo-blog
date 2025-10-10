@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "eee33796db34b6ba",
+        "id": "9ddaf3b48d1084ec",
         "type": "tabs",
         "children": [
           {
-            "id": "1b347bc24a8106ae",
+            "id": "423fcc2aca68fba9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/写点什么/私域平台.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "私域平台"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 242.5
   },
   "right": {
     "id": "b1953caa99aeb9ff",
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/写点什么/私域平台.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "私域平台 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -156,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,10 +164,10 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "1b347bc24a8106ae",
+  "active": "423fcc2aca68fba9",
   "lastOpenFiles": [
-    "posts/AI/Claude-Relay-Service部署过程.md",
     "posts/写点什么/私域平台.md",
+    "posts/AI/Claude-Relay-Service部署过程.md",
     "posts/写点什么",
     "posts/AI/解决codex执行任务需不断确认问题.md",
     "posts/Obsidian个人使用向.md",
